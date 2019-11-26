@@ -1,5 +1,5 @@
 //
-//  ARCPopOverViewController.swift
+//  SRPopOverViewController.swift
 //  CustomePopUpDemo
 //
 //  Created by Subhra Roy on 12/04/19.
@@ -9,7 +9,7 @@
 import Foundation
 import UIKit
 
-class ARCPopOverViewController: UIViewController, UIAdaptivePresentationControllerDelegate {
+class SRPopOverViewController: UIViewController, UIAdaptivePresentationControllerDelegate {
     
     @IBOutlet weak var infoLabel: UILabel!
     private var message : String?

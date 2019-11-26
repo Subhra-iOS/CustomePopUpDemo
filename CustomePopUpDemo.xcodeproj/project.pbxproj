@@ -13,8 +13,8 @@
 		2A4FB94222607B5B00CFAC7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FB94122607B5B00CFAC7D /* Assets.xcassets */; };
 		2A4FB94522607B5B00CFAC7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FB94322607B5B00CFAC7D /* LaunchScreen.storyboard */; };
 		2A4FB95022607B5B00CFAC7D /* CustomePopUpDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FB94F22607B5B00CFAC7D /* CustomePopUpDemoTests.swift */; };
-		2A4FB95C226083F300CFAC7D /* ARCPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FB95A226083F300CFAC7D /* ARCPopOverViewController.swift */; };
-		2A4FB95F2260848000CFAC7D /* ARCPopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A4FB95E2260848000CFAC7D /* ARCPopOverViewController.xib */; };
+		2A4FB95C226083F300CFAC7D /* SRPopOverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4FB95A226083F300CFAC7D /* SRPopOverViewController.swift */; };
+		2A7E6324238D87B50010691E /* SRPopOverViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A7E6323238D87B50010691E /* SRPopOverViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +38,8 @@
 		2A4FB94B22607B5B00CFAC7D /* CustomePopUpDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomePopUpDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A4FB94F22607B5B00CFAC7D /* CustomePopUpDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomePopUpDemoTests.swift; sourceTree = "<group>"; };
 		2A4FB95122607B5B00CFAC7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A4FB95A226083F300CFAC7D /* ARCPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARCPopOverViewController.swift; sourceTree = "<group>"; };
-		2A4FB95E2260848000CFAC7D /* ARCPopOverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ARCPopOverViewController.xib; sourceTree = "<group>"; };
+		2A4FB95A226083F300CFAC7D /* SRPopOverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SRPopOverViewController.swift; sourceTree = "<group>"; };
+		2A7E6323238D87B50010691E /* SRPopOverViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SRPopOverViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,8 @@
 			children = (
 				2A4FB93A22607B5900CFAC7D /* AppDelegate.swift */,
 				2A4FB93C22607B5900CFAC7D /* ViewController.swift */,
-				2A4FB95A226083F300CFAC7D /* ARCPopOverViewController.swift */,
-				2A4FB95E2260848000CFAC7D /* ARCPopOverViewController.xib */,
+				2A4FB95A226083F300CFAC7D /* SRPopOverViewController.swift */,
+				2A7E6323238D87B50010691E /* SRPopOverViewController.xib */,
 				2A4FB93E22607B5900CFAC7D /* Main.storyboard */,
 				2A4FB94122607B5B00CFAC7D /* Assets.xcassets */,
 				2A4FB94322607B5B00CFAC7D /* LaunchScreen.storyboard */,
@@ -184,8 +184,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A4FB94522607B5B00CFAC7D /* LaunchScreen.storyboard in Resources */,
-				2A4FB95F2260848000CFAC7D /* ARCPopOverViewController.xib in Resources */,
 				2A4FB94222607B5B00CFAC7D /* Assets.xcassets in Resources */,
+				2A7E6324238D87B50010691E /* SRPopOverViewController.xib in Resources */,
 				2A4FB94022607B5900CFAC7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A4FB95C226083F300CFAC7D /* ARCPopOverViewController.swift in Sources */,
+				2A4FB95C226083F300CFAC7D /* SRPopOverViewController.swift in Sources */,
 				2A4FB93D22607B5900CFAC7D /* ViewController.swift in Sources */,
 				2A4FB93B22607B5900CFAC7D /* AppDelegate.swift in Sources */,
 			);

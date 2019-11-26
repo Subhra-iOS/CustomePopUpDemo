@@ -19,7 +19,7 @@ class ViewController: UIViewController, UIAdaptivePresentationControllerDelegate
 
     /*@IBAction func didTapOnActionBtn(_ sender: Any) {
         
-        let popOverAlert : ARCPopOverViewController = ARCPopOverViewController(nibName: "ARCPopOverViewController", bundle: nil)
+        let popOverAlert : SRPopOverViewController = SRPopOverViewController(nibName: "SRPopOverViewController", bundle: nil)
         popOverAlert.modalPresentationStyle = .popover
         popOverAlert.preferredContentSize = CGSize(width: 200, height: 50)
         
@@ -56,7 +56,7 @@ class ViewController: UIViewController, UIAdaptivePresentationControllerDelegate
         
         let button : UIButton = sender as! UIButton
         
-        let popOverAlertViewController = ARCPopOverViewController(nibName: "ARCPopOverViewController", bundle: Bundle.main)
+        let popOverAlertViewController = SRPopOverViewController(nibName: "SRPopOverViewController", bundle: Bundle.main)
         
         popOverAlertViewController.modalPresentationStyle = UIModalPresentationStyle.popover
         popOverAlertViewController.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection.up
@@ -64,7 +64,7 @@ class ViewController: UIViewController, UIAdaptivePresentationControllerDelegate
         // arrow color
         popOverAlertViewController.popoverPresentationController?.backgroundColor = UIColor(red: (223.0/255.0), green: (223.0/255.0), blue: (223.0/255.0), alpha: 1.0)
         
-        popOverAlertViewController.setMessage("Please call your ARC service center and they will provide you with the ARC account number for your company.")
+        popOverAlertViewController.setMessage("Please call your  service center and they will provide you with the  account number for your company.")
         
         popOverAlertViewController.popoverPresentationController?.sourceView = button 
          popOverAlertViewController.popoverPresentationController?.permittedArrowDirections = .up
